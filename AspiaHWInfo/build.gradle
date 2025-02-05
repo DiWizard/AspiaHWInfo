@@ -15,7 +15,7 @@ dependencies {
 }
 
 application {
-    mainClass = 'info.malenkov.aspiahwinfo.App'
+    mainClass = 'info.malenkov.aspiahwinfo.AspiaHWInfo'
 }
 
 java {

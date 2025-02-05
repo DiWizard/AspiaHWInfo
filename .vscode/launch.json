@@ -5,11 +5,18 @@
 	"version": "0.2.0",
 	"configurations": [
 		{
+			"type": "java",
+			"name": "AspiaHWInfo",
+			"request": "launch",
+			"mainClass": "info.malenkov.aspiahwinfo.AspiaHWInfo",
+			"projectName": "app"
+		},
+		{
 			"name": "Help",
 			"type": "java",
 			"request": "launch",
 			"mainClass": "info.malenkov.aspiahwinfo.App",
-			"projectName": "app",
+			"projectName": "app"
 		},
 		{
 			"name": "LocalNET [Win]",
@@ -24,7 +31,7 @@
 				"--hostPassword=HjcYtanm",
 				"--all",
 				"--timeout=6000"
-			],
-		},
+			]
+		}
 	]
 }

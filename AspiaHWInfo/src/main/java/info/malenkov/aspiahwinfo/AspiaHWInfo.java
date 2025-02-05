@@ -2,7 +2,7 @@ package info.malenkov.aspiahwinfo;
 
 import java.net.InetAddress;
 
-public class App {
+public class AspiaHWInfo {
 	private static final String CLK_IPNET = "--network";
 	private static final String CLK_IPNET_S = "-n";
 
