@@ -1,0 +1,27 @@
+plugins {
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.google.guava:guava:31.1-jre'
+    implementation 'com.google.protobuf:protobuf-java:3.22.2'
+    implementation 'org.bouncycastle:bcprov-jdk15on:1.70'
+    implementation 'commons-net:commons-net:3.6'
+    implementation 'com.google.code.gson:gson:2.10.1'
+}
+
+application {
+    mainClass = 'info.malenkov.aspiahwinfo.App'
+}
+
+java {
+    compileJava.options.encoding = 'UTF-8'
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(8))
+    }
+}
+
