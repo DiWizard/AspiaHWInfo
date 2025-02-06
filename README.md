@@ -40,7 +40,7 @@ Linux/MacOS
 
 Windows
 ``` sh
-C:\PROGRA~1\Zulu\zulu-8\bin\java.exe -cp AspiaHWInfo\lib\* info.malenkov.aspiahwinfo.AspiaHWInfo -n=192.168.1.0/24:8050 -p=NewPa$$word -w="d:\newBook.aab"
+C:\PROGRA~1\Zulu\zulu-8\bin\java.exe -cp AspiaHWInfo\lib\* info.malenkov.aspiahwinfo.AspiaHWInfo -n=192.168.1.0/24:8050 -u=AspiaUser -p=Pa$$word -x=hwinfo.json
 ```
 
 System requirements
